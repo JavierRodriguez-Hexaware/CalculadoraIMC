@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Calculadora Índice de Masa Corporal</title>
+  </head>
+  <body>
+     <img width="200" src="https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/imc-150x150.png"> 
+    <form id="formulario">
+      <label for="nombre">Escribe tu nombre:</label>
+      <input type="text" id="nombre">
+      <br>
+      <label for="altura">Escribe tu altura en cm:</label>
+      <input type="text" id="altura" required="required">
+      <br>
+      <label for="peso">Escribe tu peso en kg:</label>
+      <input type="text" id="peso" required="required">
+      <br>
+      <button type="submit" onclick="calcularIMC()">Calcular IMC</button>
+      <p id="resultado"></p>
+    </form>
+   <script src="funciones.js"></script>
+  </body>
+</html>
